@@ -27,7 +27,7 @@ const HomePage = () => {
 
   const columns = [
     {
-      title: 'Account Id',
+      title: '#',
       dataIndex: 'id',
       key: 'id',
     },
