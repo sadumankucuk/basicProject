@@ -19,7 +19,7 @@ const HomePage = () => {
   const dateFormatter = (date) => moment.utc(new Date(date)).format('LL');
 
   useEffect(() => {
-    axios.get('http://www.json-generator.com/api/json/get/bUgMRhYjKG?indent=2').then((response) => {
+    axios.get('https://www.json-generator.com/api/json/get/bUgMRhYjKG?indent=2').then((response) => {
       setTableData(response.data.nodes);
       setChartData(response.data.graphData);
     }).catch((err) => setIsNoData(true));
