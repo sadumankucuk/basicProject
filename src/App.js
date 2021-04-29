@@ -6,7 +6,7 @@ import DetailPage from './pages/DetailPage';
 const App = () => (
   <Switch>
     <Route path="/" exact component={HomePage} />
-    <Route path="/data/:id" component={DetailPage} />
+    <Route path="/detail/:id" component={DetailPage} />
   </Switch>
 );
 

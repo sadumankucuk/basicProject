@@ -15,8 +15,9 @@ module.exports = {
     ecmaVersion: 7,
     sourceType: 'module',
   },
-  plugins: ['babel', 'import', 'jsx-a11y'],
+  plugins: ['babel', 'import', 'jsx-a11y', 'react'],
   rules: {
+    'no-unused-vars': 'off',
     'no-plusplus': 'off',
     'prefer-rest-params': 'off',
     'no-restricted-syntax': 'off',
